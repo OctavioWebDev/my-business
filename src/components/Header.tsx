@@ -5,11 +5,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faBars } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 
+
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="flex justify-between items-center p-4 bg-gray-800 text-white">
+    <>
+    <header className="relative flex justify-between items-center p-4 bg-gradient-to-b from-emerald-950 to-transparent text-white">
       <div className="flex items-center">
         <Image
           src="/assets/logos/questwebtech9.png"
@@ -25,7 +27,7 @@ export default function Header() {
         </button>
       </div>
       {menuOpen && (
-        <div className="absolute top-12 right-0 bg-gray-800 text-white p-4 shadow-lg">
+        <div className="absolute top-12 right-0 bg-gradient-to-b from-black to-emerald-950 text-white p-4 shadow-lg z-20">
           <ul className="flex flex-col space-y-2">
           <li>
               <Link href="/">Home</Link>
@@ -58,5 +60,6 @@ export default function Header() {
         </div>
       )}
     </header>
+    </>
   );
 }

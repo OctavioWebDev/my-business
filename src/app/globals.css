@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); /* Alternative to Futura */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap'); /* Alternative to Avenir */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap'); /* Alternative to Eurostile */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /* Alternative to Helvetica */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -31,3 +36,14 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Add this to your globals.css or a specific CSS file */
+.clip-sloped {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+/* Add this to your globals.css or a specific CSS file */
+.clip-sloped-right {
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 85%);
+}
+
+
