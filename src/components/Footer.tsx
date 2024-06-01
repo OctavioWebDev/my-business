@@ -18,7 +18,7 @@ import ContactForm from './ContactForm';
 
 export default function Footer() {
     return (
-        <footer className="flex flex-col w-full shrink-0 items-center bg-gradient-to-b from-transparent to-emerald-950 px-4 md:px-6">
+        <footer className="flex flex-col w-full shrink-0 items-center bg-gradient-to-b from-emerald-950 to-transparent px-4 md:px-6">
             <div className="flex flex-col lg:flex-row justify-between w-full items-start gap-2 sm:gap-6 py-6">
                 <div className="flex-1">
                     <Image
@@ -28,8 +28,8 @@ export default function Footer() {
                         height={50}
                     />
                     <p className="font-eurostile py-2">
-                        <a href="https://maps.google.com/?q=7555+Lewis+Ave,+Temperance,+Michigan" target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faMapMarkerAlt} /> 1488 Back Ally LN Toledo, Ohio
+                        <a href="https://maps.google.com/?q=+Toledo,+Ohio" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faMapMarkerAlt} />Toledo, Ohio
                         </a>
                     </p>
                     <p className="font-eurostile py-2">
@@ -75,9 +75,6 @@ export default function Footer() {
                     </p>
                     <p className="font-eurostile py-2">
                         <Link href="/OurWork" className="hover:underline">Our Work</Link>
-                    </p>
-                    <p className="font-eurostile py-2">
-                        <Link href="/Repair" className="hover:underline">Repair</Link>
                     </p>
                     <p className="font-eurostile py-2">
                         <Link href="/Rescources" className="hover:underline">Resources</Link>

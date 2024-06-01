@@ -48,9 +48,6 @@ export default function Header() {
               <Link href="/OurWork">Our Work</Link>
             </li>
             <li>
-              <Link href="/Repair">Repair</Link>
-            </li>
-            <li>
               <Link href="/Resources">Resources</Link>
             </li>
             <li>

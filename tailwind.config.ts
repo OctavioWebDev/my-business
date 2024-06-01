@@ -32,15 +32,16 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        futura: ['Montserrat', 'sans-serif'], // Alternative to Futura
-        avenir: ['Nunito', 'sans-serif'], // Alternative to Avenir
-        eurostile: ['Orbitron', 'sans-serif'], // Alternative to Eurostile
+        futura: ['Montserrat', 'sans-serif'], 
+        avenir: ['Nunito', 'sans-serif'], 
+        eurostile: ['Orbitron', 'sans-serif'],
         helvetica: ['Roboto', 'sans-serif'],
       },
     },
   },
   plugins: [
     addVariablesForColors,
+    require('@tailwindcss/typography')
   ],
 };
 

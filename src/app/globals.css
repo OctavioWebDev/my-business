@@ -8,9 +8,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,13 +37,24 @@ body {
   }
 }
 
-/* Add this to your globals.css or a specific CSS file */
+/* Slope at the bottom */
 .clip-sloped {
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
 }
-/* Add this to your globals.css or a specific CSS file */
+
 .clip-sloped-right {
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 85%);
 }
+
+/* Slope at the top */
+.clip-sloped-top {
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+}
+
+.clip-sloped-right-top {
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 85%);
+}
+
+
 
 
