@@ -33,7 +33,7 @@ export default function Footer() {
                         </a>
                     </p>
                     <p className="font-eurostile py-2">
-                        <a href="tel:+1734224-0978">
+                        <a href="tel:+14193439894">
                             <FontAwesomeIcon icon={faPhone} /> Phone: (419)343-9894
                         </a>
                     </p>
