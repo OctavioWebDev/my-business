@@ -42,25 +42,25 @@ export default function Header() {
           >
             <ul className="flex flex-col space-y-2">
               <li>
-                <Link href="/" onClick={closeMenu}>Home</Link>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/Contact" onClick={closeMenu}>Contact</Link>
+                <Link href="/Contact">Contact</Link>
               </li>
               <li>
-                <Link href="/Blog" onClick={closeMenu}>Blog</Link>
+                <Link href="/Blog">Blog</Link>
               </li>
               <li>
-                <Link href="/Design" onClick={closeMenu}>Design</Link>
+                <Link href="/Design">Design</Link>
               </li>
               <li>
-                <Link href="/Maintenance" onClick={closeMenu}>Maintenance</Link>
+                <Link href="/Maintenance">Maintenance</Link>
               </li>
               <li>
-                <Link href="/Marketing" onClick={closeMenu}>Marketing</Link>
+                <Link href="/Marketing">Marketing</Link>
               </li>
               <li>
-                <Link href="/WhyUs" onClick={closeMenu}>Why Us</Link>
+                <Link href="/WhyUs">Why Us</Link>
               </li>
             </ul>
           </div>

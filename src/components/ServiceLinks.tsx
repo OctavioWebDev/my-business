@@ -10,7 +10,7 @@ const ServiceLinks: React.FC = () => {
             <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-lg hover:bg-gray-100 transition m-2 w-40">
                 <Link href="/api-explanation" className="text-emerald-950 flex flex-col items-center">
                     <FontAwesomeIcon icon={faCode} size="2x" />
-                    <p className="mt-2 font-eurostile text-center">API Explanation</p>
+                    <p className="mt-2 font-eurostile text-center">API Development</p>
                 </Link>
             </div>
             <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-lg hover:bg-gray-100 transition m-2 w-40">
