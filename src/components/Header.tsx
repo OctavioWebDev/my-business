@@ -8,11 +8,11 @@ import Link from 'next/link';
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const handleMouseEnter = () => {
-    setMenuOpen(true);
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
   };
 
-  const handleMouseLeave = () => {
+  const closeMenu = () => {
     setMenuOpen(false);
   };
 
@@ -28,45 +28,39 @@ export default function Header() {
           />
         </div>
         <div className="flex items-center">
-        <Link href="tel:+14193439894">
+          <Link href="tel:+14193439894">
             <FontAwesomeIcon icon={faPhone} className="text-xl mr-4 cursor-pointer" />
           </Link>
-          <button onClick={() => setMenuOpen(!menuOpen)} className="text-xl">
+          <button onClick={toggleMenu} className="text-xl">
             <FontAwesomeIcon icon={faBars} />
           </button>
         </div>
         {menuOpen && (
           <div
             className="absolute top-12 right-0 bg-gradient-to-b from-black to-emerald-950 text-white p-4 shadow-lg z-20"
-            onMouseLeave={handleMouseLeave}
+            onMouseLeave={closeMenu}
           >
             <ul className="flex flex-col space-y-2">
               <li>
-                <Link href="/">Home</Link>
+                <Link href="/" onClick={closeMenu}>Home</Link>
               </li>
               <li>
-                <Link href="/Contact">Contact</Link>
+                <Link href="/Contact" onClick={closeMenu}>Contact</Link>
               </li>
               <li>
-                <Link href="/Blog">Blog</Link>
+                <Link href="/Blog" onClick={closeMenu}>Blog</Link>
               </li>
               <li>
-                <Link href="/Design">Design</Link>
+                <Link href="/Design" onClick={closeMenu}>Design</Link>
               </li>
               <li>
-                <Link href="/Maintenance">Maintenance</Link>
+                <Link href="/Maintenance" onClick={closeMenu}>Maintenance</Link>
               </li>
               <li>
-                <Link href="/Marketing">Marketing</Link>
-              </li>
-              {/* <li>
-                <Link href="/OurWork">Our Work</Link>
+                <Link href="/Marketing" onClick={closeMenu}>Marketing</Link>
               </li>
               <li>
-                <Link href="/Resources">Resources</Link>
-              </li> */}
-              <li>
-                <Link href="/WhyUs">Why Us</Link>
+                <Link href="/WhyUs" onClick={closeMenu}>Why Us</Link>
               </li>
             </ul>
           </div>
@@ -75,4 +69,5 @@ export default function Header() {
     </>
   );
 }
+
 
