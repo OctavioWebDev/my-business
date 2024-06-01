@@ -39,7 +39,7 @@ export default function Footer() {
                     </p>
                     <p className="font-eurostile py-2">Open M-F: 9:00 AM – 5:00 PM</p>
                     <p className="font-eurostile py-2">
-                        <a href="mailto:contact@jacobssupply.com">
+                        <a href="mailto:contact@questwebtech.com">
                             <FontAwesomeIcon icon={faEnvelope} /> contact@questwbtech.com
                         </a>
                     </p>
