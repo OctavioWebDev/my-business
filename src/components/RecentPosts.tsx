@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface Post {
   href: string;
@@ -20,7 +21,7 @@ const RecentPosts: React.FC<RecentPostsProps> = ({ posts }) => {
       <div className="grid gap-4">
         {posts.map((post, index) => (
           <Link key={index} href={post.href} className="flex items-center gap-4" prefetch={false}>
-            <img
+            <Image
               src={post.imgSrc}
               alt={post.imgAlt}
               width={80}

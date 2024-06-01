@@ -206,7 +206,7 @@ export default function Maintenance() {
           <h2 className="text-xl font-bold mb-4">Recent Posts</h2>
             <div className="grid gap-4">
               <Link href="/Design" className="flex items-center gap-4" prefetch={false}>
-                <img
+                <Image
                   src="/assets/images/andrew-neel-cckf4TsHAuw-unsplash.jpg"
                   alt="Recent Post"
                   width={80}
@@ -219,7 +219,7 @@ export default function Maintenance() {
                 </div>
               </Link>
               <Link href="/Maintenance" className="flex items-center gap-4" prefetch={false}>
-                <img
+                <Image
                   src="/assets/images/vitolda-klein-lAqSzwr5eQc-unsplash.jpg"
                   alt="Recent Post"
                   width={80}
@@ -232,7 +232,7 @@ export default function Maintenance() {
                 </div>
               </Link>
               <Link href="/Marketing" className="flex items-center gap-4" prefetch={false}>
-                <img
+                <Image
                   src="/assets/images/nasa-Q1p7bh3SHj8-unsplash (1).jpg"
                   alt="Recent Post"
                   width={80}

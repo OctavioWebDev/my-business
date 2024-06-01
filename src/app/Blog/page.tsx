@@ -38,7 +38,7 @@ export default function Blog() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <Link href="Maintenance"> 
             <article className="space-y-2">
-              <img
+              <Image
                 src="/assets/images/vitolda-klein-lAqSzwr5eQc-unsplash.jpg"
                 alt="Recent blog post"
                 width={400}
@@ -62,7 +62,7 @@ export default function Blog() {
             </Link>
             <Link href="Marketing">  
             <article className="space-y-2">
-              <img
+              <Image
                 src="/assets/images/nasa-Q1p7bh3SHj8-unsplash (1).jpg"
                 alt="Recent blog post"
                 width={400}
@@ -95,7 +95,7 @@ export default function Blog() {
                 className="flex items-center gap-4 hover:bg-yellow-700 dark:hover:bg-gray-800 rounded-lg p-3 transition-colors"
                 prefetch={false}
               >
-                <img
+                <Image
                   src="/assets/images/andrew-neel-cckf4TsHAuw-unsplash.jpg"
                   alt="Recent blog post"
                   width={80}
@@ -115,7 +115,7 @@ export default function Blog() {
                 className="flex items-center gap-4 hover:bg-yellow-700 dark:hover:bg-gray-800 rounded-lg p-3 transition-colors"
                 prefetch={false}
               >
-                <img
+                <Image
                   src="/assets/images/vitolda-klein-lAqSzwr5eQc-unsplash.jpg"
                   alt="Recent blog post"
                   width={80}
@@ -135,7 +135,7 @@ export default function Blog() {
                 className="flex items-center gap-4 hover:bg-yellow-700 dark:hover:bg-gray-800 rounded-lg p-3 transition-colors"
                 prefetch={false}
               >
-                <img
+                <Image
                   src="/assets/images/nasa-Q1p7bh3SHj8-unsplash (1).jpg"
                   alt="Recent blog post"
                   width={80}

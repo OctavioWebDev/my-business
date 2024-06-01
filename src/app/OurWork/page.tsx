@@ -15,7 +15,7 @@
 //             className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2"
 //             prefetch={false}
 //           >
-//             <img
+//             <Image
 //               src="/placeholder.svg"
 //               alt="Work 1"
 //               width={600}
@@ -33,7 +33,7 @@
 //             className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2"
 //             prefetch={false}
 //           >
-//             <img
+//             <Image
 //               src="/placeholder.svg"
 //               alt="Work 2"
 //               width={600}
@@ -51,7 +51,7 @@
 //             className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2"
 //             prefetch={false}
 //           >
-//             <img
+//             <Image
 //               src="/placeholder.svg"
 //               alt="Work 3"
 //               width={600}
@@ -69,7 +69,7 @@
 //             className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2"
 //             prefetch={false}
 //           >
-//             <img
+//             <Image
 //               src="/placeholder.svg"
 //               alt="Work 4"
 //               width={600}
@@ -87,7 +87,7 @@
 //             className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2"
 //             prefetch={false}
 //           >
-//             <img
+//             <Image
 //               src="/placeholder.svg"
 //               alt="Work 5"
 //               width={600}
@@ -105,7 +105,7 @@
 //             className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 ease-in-out hover:-translate-y-2"
 //             prefetch={false}
 //           >
-//             <img
+//             <Image
 //               src="/placeholder.svg"
 //               alt="Work 6"
 //               width={600}
@@ -132,7 +132,7 @@
 //             <h2 className="text-xl font-bold mb-4">Recent Additions</h2>
 //             <div className="grid gap-4">
 //               <Link href="#" className="flex items-center gap-4" prefetch={false}>
-//                 <img
+//                 <Image
 //                   src="/placeholder.svg"
 //                   alt="Recent Work"
 //                   width={80}
@@ -145,7 +145,7 @@
 //                 </div>
 //               </Link>
 //               <Link href="#" className="flex items-center gap-4" prefetch={false}>
-//                 <img
+//                 <Image
 //                   src="/placeholder.svg"
 //                   alt="Recent Work"
 //                   width={80}
@@ -158,7 +158,7 @@
 //                 </div>
 //               </Link>
 //               <Link href="#" className="flex items-center gap-4" prefetch={false}>
-//                 <img
+//                 <Image
 //                   src="/placeholder.svg"
 //                   alt="Recent Work"
 //                   width={80}
