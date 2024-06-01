@@ -108,8 +108,8 @@ export default function ContactForm() {
                     <label htmlFor="textera" className="block font-eurostile text-white mb-2">Message:</label>
                     <input
                         type="textera"
-                        id="email"
-                        name="email"
+                        id="message"
+                        name="message"
                         className="w-full p-2 bg-slate-900 opacity-50 border-black rounded"
                         value={formState.message}
                         onChange={handleChange}

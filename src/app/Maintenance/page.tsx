@@ -31,7 +31,7 @@ export default function Maintenance() {
               height={340}
               className="aspect-video overflow-hidden rounded-lg object-cover"
             />
-            <figcaption className="text-center">Picture by: Vitolda Klein</figcaption>
+            <figcaption className="text-center">Picture by: Vitolda Klein on Unsplash</figcaption>
           </figure>
             <h2 className="font-extrabold text-2xl text-white">
             Why Web Maintenance Matters: 
@@ -169,7 +169,7 @@ export default function Maintenance() {
           
         </article>
         <div className="space-y-8">
-          <div>
+          {/* <div>
             <h2 className="text-xl font-bold mb-4">Categories</h2>
             <div className="grid gap-2">
               <Link
@@ -201,47 +201,47 @@ export default function Maintenance() {
                 Business
               </Link>
             </div>
-          </div>
+          </div> */}
           <div>
-            <h2 className="text-xl font-bold mb-4">Recent Posts</h2>
+          <h2 className="text-xl font-bold mb-4">Recent Posts</h2>
             <div className="grid gap-4">
-              <Link href="#" className="flex items-center gap-4" prefetch={false}>
+              <Link href="/Design" className="flex items-center gap-4" prefetch={false}>
                 <img
-                  src="/placeholder.svg"
+                  src="/assets/images/andrew-neel-cckf4TsHAuw-unsplash.jpg"
                   alt="Recent Post"
                   width={80}
                   height={80}
                   className="rounded-lg object-cover"
                 />
                 <div>
-                  <h3 className="text-lg font-medium">Airplane Turbulence: Sky's Rollercoaster</h3>
-                  <p className="text-gray-500 dark:text-gray-400 text-sm">May 1, 2023</p>
+                  <h3 className="text-lg font-medium">Why A Good Websit Matters</h3>
+                  <p className="text-gray-500 dark:text-gray-400 text-sm">May 31, 2024</p>
                 </div>
               </Link>
-              <Link href="#" className="flex items-center gap-4" prefetch={false}>
+              <Link href="/Maintenance" className="flex items-center gap-4" prefetch={false}>
                 <img
-                  src="/placeholder.svg"
+                  src="/assets/images/vitolda-klein-lAqSzwr5eQc-unsplash.jpg"
                   alt="Recent Post"
                   width={80}
                   height={80}
                   className="rounded-lg object-cover"
                 />
                 <div>
-                  <h3 className="text-lg font-medium">How to make a chat app with React</h3>
-                  <p className="text-gray-500 dark:text-gray-400 text-sm">April 25, 2023</p>
+                  <h3 className="text-lg font-medium">The Importance of Web Maintenance</h3>
+                  <p className="text-gray-500 dark:text-gray-400 text-sm">May 31, 2024</p>
                 </div>
               </Link>
-              <Link href="#" className="flex items-center gap-4" prefetch={false}>
+              <Link href="/Marketing" className="flex items-center gap-4" prefetch={false}>
                 <img
-                  src="/placeholder.svg"
+                  src="/assets/images/nasa-Q1p7bh3SHj8-unsplash (1).jpg"
                   alt="Recent Post"
                   width={80}
                   height={80}
                   className="rounded-lg object-cover"
                 />
                 <div>
-                  <h3 className="text-lg font-medium">Cooking recipe for disaster</h3>
-                  <p className="text-gray-500 dark:text-gray-400 text-sm">April 15, 2023</p>
+                  <h3 className="text-lg font-medium">The Art of Marketing</h3>
+                  <p className="text-gray-500 dark:text-gray-400 text-sm">May 31, 2024</p>
                 </div>
               </Link>
             </div>

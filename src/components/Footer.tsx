@@ -10,7 +10,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import {
     faFacebookF,
-    faInstagram,
+    faXTwitter,
     faYoutube,
 } from '@fortawesome/free-brands-svg-icons';
 // import "leaflet/dist/leaflet.css";
@@ -45,17 +45,17 @@ export default function Footer() {
                     </p>
                     <div className="flex font-eurostile space-x-3">
                         <p>
-                            <a href="customurl" target="_blank" rel="noopener noreferrer" className="text-md">
+                            <a href="https://www.facebook.com/profile.php?id=61560109583746" target="_blank" rel="noopener noreferrer" className="text-md">
                                 <FontAwesomeIcon icon={faFacebookF} />
                             </a>
                         </p>
                         <p>
-                            <a href="customurl" target="_blank" rel="noopener noreferrer" className="text-md">
-                                <FontAwesomeIcon icon={faInstagram} />
+                            <a href="https://x.com/octavio31848" target="_blank" rel="noopener noreferrer" className="text-md">
+                                <FontAwesomeIcon icon={faXTwitter} />
                             </a>
                         </p>
                         <p>
-                            <a href="customurl" target="_blank" rel="noopener noreferrer" className="text-md">
+                            <a href="https://www.youtube.com/channel/UCCzbH0XewYk6iVosUO-h9kQ" target="_blank" rel="noopener noreferrer" className="text-md">
                                 <FontAwesomeIcon icon={faYoutube} />
                             </a>
                         </p>
@@ -65,6 +65,9 @@ export default function Footer() {
                 <div className='py-5 px-5 w-full sm:w-1/2 md:w-1/4 lg:order-2'>
                     <h5 className="text-3xl font-eurostile text-yellow-700 font-bold">Help</h5>
                     <p className="font-eurostile py-2">
+                        <Link href="/Contact" className="hover:underline">Contact</Link>
+                    </p>
+                    <p className="font-eurostile py-2">
                         <Link href="/Blog" className="hover:underline">Blog</Link>
                     </p>
                     <p className="font-eurostile py-2">
@@ -73,12 +76,12 @@ export default function Footer() {
                     <p className="font-eurostile py-2">
                         <Link href="/Maintenance" className="hover:underline">Maintenance</Link>
                     </p>
-                    <p className="font-eurostile py-2">
+                    {/* <p className="font-eurostile py-2">
                         <Link href="/OurWork" className="hover:underline">Our Work</Link>
-                    </p>
-                    <p className="font-eurostile py-2">
+                    </p> */}
+                    {/* <p className="font-eurostile py-2">
                         <Link href="/Rescources" className="hover:underline">Resources</Link>
-                    </p>
+                    </p> */}
                     <p className="font-eurostile py-2">
                         <Link href="/WhyUs" className="hover:underline">Why Us</Link>
                     </p>
