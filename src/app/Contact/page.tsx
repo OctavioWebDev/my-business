@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faBars } from '@fortawesome/free-solid-svg-icons';
+import { FaCalendarAlt as CalendarIcon, FaClock as ClockIcon } from 'react-icons/fa';
 
 export default function ContactPage() {
   const formRef = useRef<HTMLFormElement | null>(null);
@@ -173,7 +174,7 @@ export default function ContactPage() {
           <div>
             <h2 className="text-xl font-bold mb-4">Recent Posts</h2>
             <div className="grid gap-4">
-              <Link href="/Design" className="flex items-center gap-4" prefetch={false}>
+              <Link href="/Design" className="flex items-center gap-4 hover:bg-yellow-700 dark:hover:bg-gray-800 rounded-lg p-3 transition-colors" prefetch={false}>
                 <Image
                   src="/assets/images/andrew-neel-cckf4TsHAuw-unsplash.jpg"
                   alt="Recent Post"
@@ -183,10 +184,13 @@ export default function ContactPage() {
                 />
                 <div>
                   <h3 className="text-lg font-medium">Why A Good Website Matters</h3>
-                  <p className="text-gray-500 dark:text-gray-400 text-sm">May 31, 2024</p>
+                  <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-sm">
+                    <CalendarIcon className="w-4 h-4" />
+                    <span>May 31, 2024</span>
+                  </div>
                 </div>
               </Link>
-              <Link href="/Maintenance" className="flex items-center gap-4" prefetch={false}>
+              <Link href="/Maintenance" className="flex items-center gap-4 hover:bg-yellow-700 dark:hover:bg-gray-800 rounded-lg p-3 transition-colors" prefetch={false}>
                 <Image
                   src="/assets/images/vitolda-klein-lAqSzwr5eQc-unsplash.jpg"
                   alt="Recent Post"
@@ -196,10 +200,13 @@ export default function ContactPage() {
                 />
                 <div>
                   <h3 className="text-lg font-medium">The Importance of Web Maintenance</h3>
-                  <p className="text-gray-500 dark:text-gray-400 text-sm">May 31, 2024</p>
+                  <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-sm">
+                    <CalendarIcon className="w-4 h-4" />
+                    <span>May 31, 2024</span>
+                  </div>
                 </div>
               </Link>
-              <Link href="/Marketing" className="flex items-center gap-4" prefetch={false}>
+              <Link href="/Marketing" className="flex items-center gap-4 hover:bg-yellow-700 dark:hover:bg-gray-800 rounded-lg p-3 transition-colors" prefetch={false}>
                 <Image
                   src="/assets/images/nasa-Q1p7bh3SHj8-unsplash (1).jpg"
                   alt="Recent Post"
@@ -209,7 +216,70 @@ export default function ContactPage() {
                 />
                 <div>
                   <h3 className="text-lg font-medium">The Art of Marketing</h3>
-                  <p className="text-gray-500 dark:text-gray-400 text-sm">May 31, 2024</p>
+                  <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-sm">
+                    <CalendarIcon className="w-4 h-4" />
+                    <span>May 31, 2024</span>
+                  </div>
+                </div>
+              </Link>
+              <Link
+                href="/DataBaseCreationMaintenance"
+                className="flex items-center gap-4 hover:bg-yellow-700 dark:hover:bg-gray-800 rounded-lg p-3 transition-colors"
+                prefetch={false}
+              >
+                <Image
+                  src="/assets/images/matthieu-beaumont-iYnpYeyu57k-unsplash.jpg"
+                  alt="Recent blog post"
+                  width={80}
+                  height={80}
+                  className="rounded-lg w-20 h-20 object-cover"
+                />
+                <div className="space-y-1">
+                  <h4 className="text-lg font-semibold">Understanding Databases and Their Maintenance</h4>
+                  <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-sm">
+                    <CalendarIcon className="w-4 h-4" />
+                    <span>May 31, 2024</span>
+                  </div>
+                </div>
+              </Link>
+              <Link
+                href="/API"
+                className="flex items-center gap-4 hover:bg-yellow-700 dark:hover:bg-gray-800 rounded-lg p-3 transition-colors"
+                prefetch={false}
+              >
+                <Image
+                  src="/assets/images/gabriel-heinzer-g5jpH62pwes-unsplash.jpg"
+                  alt="Recent blog post"
+                  width={80}
+                  height={80}
+                  className="rounded-lg w-20 h-20 object-cover"
+                />
+                <div className="space-y-1">
+                  <h4 className="text-lg font-semibold">Understanding APIs and Their Importance</h4>
+                  <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-sm">
+                    <CalendarIcon className="w-4 h-4" />
+                    <span>May 31, 2024</span>
+                  </div>
+                </div>
+              </Link>
+              <Link
+                href="/WebDevDeploy"
+                className="flex items-center gap-4 hover:bg-yellow-700 dark:hover:bg-gray-800 rounded-lg p-3 transition-colors"
+                prefetch={false}
+              >
+                <Image
+                  src="/assets/images/annie-spratt-QckxruozjRg-unsplash.jpg"
+                  alt="Recent blog post"
+                  width={80}
+                  height={80}
+                  className="rounded-lg w-20 h-20 object-cover"
+                />
+                <div className="space-y-1">
+                  <h4 className="text-lg font-semibold">The Essence of Web Development and the Power of a Strong Development Team</h4>
+                  <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-sm">
+                    <CalendarIcon className="w-4 h-4" />
+                    <span>May 31, 2024</span>
+                  </div>
                 </div>
               </Link>
             </div>

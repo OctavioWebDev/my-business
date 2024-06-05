@@ -16,7 +16,7 @@ const HamburgerMenu: React.FC = () => {
     setMenuOpen(false);
   };
 
-  const handleClickOutside = (event: MouseEvent | TouchEvent) => {
+  const handleClickOutside = (event: MouseEvent) => {
     if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
       closeMenu();
     }
@@ -25,20 +25,16 @@ const HamburgerMenu: React.FC = () => {
   // Close menu when clicking outside
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutside);
-    document.addEventListener('touchstart', handleClickOutside);
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
-      document.removeEventListener('touchstart', handleClickOutside);
     };
   }, []);
 
   return (
-    <div className="relative flex items-center">
+    <div className="relative flex items-center" onMouseLeave={closeMenu}>
       <button
         onClick={toggleMenu}
-        onTouchStart={toggleMenu}
         className="text-xl p-2"
-        style={{ touchAction: 'manipulation' }}
       >
         <FontAwesomeIcon icon={faBars} className="text-3xl" />
       </button>

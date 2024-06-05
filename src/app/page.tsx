@@ -1,6 +1,6 @@
 import React from 'react';
-import { Boxes } from '../components/ui/background-bokex';
-import { cn } from '@/utils/cn';
+// import { Boxes } from '../components/ui/background-bokex';
+//import { cn } from '@/utils/cn';
 import ServiceLinks from '@/components/ServiceLinks';
 
 export default function Home() {
@@ -8,11 +8,11 @@ export default function Home() {
     <>
       <div className="flex flex-col relative h-72 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-emerald-950 flex items-center justify-center clip-sloped">
-          <Boxes />
-          <h1 className={cn("font-eurostile text-center text-2xl md:text-3xl lg:text-4xl z-20")}>
+
+          <h1 className={"font-eurostile text-center text-2xl md:text-3xl lg:text-6xl z-20"}>
             Navigating
             <br />
-            <strong className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-amber-950 to-yellow-600 md:text-2xl lg:text-3xl z-20">
+            <strong className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-amber-950 to-yellow-600 md:text-2xl lg:text-5xl z-20">
               Your
             </strong>
             <br />
@@ -23,10 +23,10 @@ export default function Home() {
       <ServiceLinks />
       <div className="relative h-72 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-emerald-950 flex flex-col items-center justify-center">
-          <h1 className="font-eurostile mb-8 text-center text-2xl md:text-3xl lg:text-4xl">
+          <h1 className="font-eurostile mb-8 text-center text-2xl md:text-3xl lg:text-6xl">
             WEBSITE DESIGN
             <br />
-            <strong className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-amber-950 to-yellow-600 md:text-2xl lg:text-3xl">
+            <strong className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-amber-950 to-yellow-600 md:text-2xl lg:text-5xl">
               &
             </strong>
             <br />
@@ -45,10 +45,10 @@ export default function Home() {
       </div>
       <div className="relative h-72 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b to-transparent from-emerald-950 flex flex-col items-center justify-center">
-          <h1 className="font-eurostile text-center text-2xl md:text-3xl lg:text-4xl">
+          <h1 className="font-eurostile text-center text-2xl md:text-3xl lg:text-6xl">
             API DEVELOPMENT
             <br />
-            <strong className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-amber-950 to-yellow-600 md:text-2xl lg:text-3xl">
+            <strong className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-amber-950 to-yellow-600 md:text-2xl lg:text-5xl">
               &
             </strong>
             <br />
@@ -67,11 +67,10 @@ export default function Home() {
       </div>
       <div className="relative h-72 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-emerald-950 flex flex-col items-center justify-center">
-          <Boxes />
-          <h1 className="font-eurostile size-fit py-6 px-6 text-center text-2xl md:text-3xl lg:text-4xl z-20">
+          <h1 className="font-eurostile size-fit py-6 px-6 text-center text-2xl md:text-3xl lg:text-6xl z-20">
             DATABASE CREATION
             <br />
-            <strong className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-amber-950 to-yellow-600 md:text-2xl lg:text-3xl z-20">
+            <strong className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-amber-950 to-yellow-600 md:text-2xl lg:text-5xl z-20">
               &
             </strong>
             <br />

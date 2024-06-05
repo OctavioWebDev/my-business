@@ -150,6 +150,66 @@ export default function Blog() {
                   </div>
                 </div>
               </Link>
+              <Link
+                href="/DataBaseCreationMaintenance"
+                className="flex items-center gap-4 hover:bg-yellow-700 dark:hover:bg-gray-800 rounded-lg p-3 transition-colors"
+                prefetch={false}
+              >
+                <Image
+                  src="/assets/images/matthieu-beaumont-iYnpYeyu57k-unsplash.jpg"
+                  alt="Recent blog post"
+                  width={80}
+                  height={80}
+                  className="rounded-lg w-20 h-20 object-cover"
+                />
+                <div className="space-y-1">
+                  <h4 className="text-lg font-semibold">Understanding Databases and Their Maintenance</h4>
+                  <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-sm">
+                    <CalendarIcon className="w-4 h-4" />
+                    <span>May 31, 2024</span>
+                  </div>
+                </div>
+              </Link>
+              <Link
+                href="/API"
+                className="flex items-center gap-4 hover:bg-yellow-700 dark:hover:bg-gray-800 rounded-lg p-3 transition-colors"
+                prefetch={false}
+              >
+                <Image
+                  src="/assets/images/gabriel-heinzer-g5jpH62pwes-unsplash.jpg"
+                  alt="Recent blog post"
+                  width={80}
+                  height={80}
+                  className="rounded-lg w-20 h-20 object-cover"
+                />
+                <div className="space-y-1">
+                  <h4 className="text-lg font-semibold">Understanding APIs and Their Importance</h4>
+                  <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-sm">
+                    <CalendarIcon className="w-4 h-4" />
+                    <span>May 31, 2024</span>
+                  </div>
+                </div>
+              </Link>
+              <Link
+                href="/WebDevDeploy"
+                className="flex items-center gap-4 hover:bg-yellow-700 dark:hover:bg-gray-800 rounded-lg p-3 transition-colors"
+                prefetch={false}
+              >
+                <Image
+                  src="/assets/images/annie-spratt-QckxruozjRg-unsplash.jpg"
+                  alt="Recent blog post"
+                  width={80}
+                  height={80}
+                  className="rounded-lg w-20 h-20 object-cover"
+                />
+                <div className="space-y-1">
+                  <h4 className="text-lg font-semibold">The Essence of Web Development and the Power of a Strong Development Team</h4>
+                  <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400 text-sm">
+                    <CalendarIcon className="w-4 h-4" />
+                    <span>May 31, 2024</span>
+                  </div>
+                </div>
+              </Link>
             </div>
           </div>
           {/* <div>
