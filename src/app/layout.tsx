@@ -9,7 +9,21 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 export const metadata: Metadata = {
   title: "Quest Web Development Technologies",
   description: "Navigating Your Digital Success",
-  
+  openGraph: {
+    title: "Quest Web Development Technologies",
+    description: "Navigating Your Digital Success",
+    type: "website",
+    url: "https://questwebtech.com",
+    images: [
+      {
+        url: "https://questwebtech.com/social-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Quest Web Development Technologies",
+      },
+    ],
+    siteName: "Quest Web Development Technologies", 
+  },
 };
 
 const chivo = Chivo({
