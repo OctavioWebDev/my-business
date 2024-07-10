@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: "Navigating Your Digital Success",
   openGraph: {
     title: "Quest Web Development Technologies",
-    description: "Navigating Your Digital Success",
+    description: "Quest Web Development Technologies Is Here To Help With Navigating Your Digital Success",
     type: "website",
     url: "https://questwebtech.com",
     images: [
