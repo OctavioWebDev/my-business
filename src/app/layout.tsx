@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     url: "https://questwebtech.com",
     images: [
       {
-        url: "https://questwebtech.com/social-image.png",
+        url: "https://questwebtech.com/opengraph-image.png",
         width: 1200,
         height: 630,
         alt: "Quest Web Development Technologies",
