@@ -1,6 +1,4 @@
 import React from 'react';
-// import { Boxes } from '../components/ui/background-bokex';
-//import { cn } from '@/utils/cn';
 import HeroSection from '@/components/HeroSection';
 import ServicesSection from '@/components/ServicesSection';
 import WebDesignDeploymentSection from '@/components/WebDesignDeploymentSection';
