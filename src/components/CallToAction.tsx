@@ -14,7 +14,7 @@ const CallToAction: React.FC = () => {
         <p className="mb-8 text-xl">
           Contact us today to discuss how Quest Web Development Technologies can help you achieve your goals. Let's build something amazing together!
         </p>
-        <Link href="#contact" className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full text-lg transition duration-300">
+        <Link href="/Contact" className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full text-lg transition duration-300">
           Get in Touch
         </Link>
       </div>
