@@ -4,7 +4,7 @@ import ServiceLinks from './ServiceLinks';
 
 const ServicesSection: React.FC = () => {
   return (
-    <section className="bg-gradient-to-b from-transparent to-emerald-950 py-12">
+    <section className="bg-gradient-to-b from-emerald-950 to-transparent py-12">
       <h2 className="text-center font-eurostile text-3xl font-bold mb-8">Our Services</h2>
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-start mb-8 md:gap-4">

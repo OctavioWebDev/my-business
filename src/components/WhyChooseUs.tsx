@@ -30,14 +30,6 @@ const WhyChooseUsSection: React.FC = () => {
                                 <h3 className="text-xl font-bold mb-2">4. Client-Centric Approach</h3>
                                 <p>Your satisfaction is our top priority. We maintain open communication, provide regular updates, and value your feedback throughout the project. Our collaborative approach ensures that we exceed your expectations at every stage.</p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">5. Comprehensive Services</h3>
-                                <p>From web design and development to API integration and database maintenance, we offer a full spectrum of services to meet all your digital needs. Our holistic approach ensures seamless integration and optimal performance of all components.</p>
-                            </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">6. Long-Term Partnership</h3>
-                                <p>We believe in building lasting relationships with our clients. Our support doesn't end with the project delivery. We offer ongoing maintenance and support to ensure your digital assets continue to thrive and evolve with your business.</p>
-                            </div>
                         </div>
                         <p className="mt-4">
                             Choose Quest Web Development Technologies for a partner dedicated to your success. Let's embark on a journey to elevate your digital presence together.
