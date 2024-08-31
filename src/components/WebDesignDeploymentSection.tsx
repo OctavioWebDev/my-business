@@ -2,8 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 
 const WebDesignDeploymentSection: React.FC = () => {
+  
   return (
-    <div className="relative overflow-hidden py-12 bg-gradient-to-b from-transparent to-emerald-950">
+    <div className="relative h-auto overflow-hidden py-12 bg-gradient-to-b from-transparent to-emerald-950">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-start justify-between">
           <div className="md:w-1/2 mb-8 md:mb-0 pr-4">
