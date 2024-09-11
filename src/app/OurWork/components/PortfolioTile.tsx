@@ -78,7 +78,7 @@ export default function PortfolioTile() {
             height={400}
             className="object-cover w-full h-48 group-hover:scale-105 transition-transform duration-300 ease-in-out"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent group-hover:from-gray-900/60 transition-colors duration-300 ease-in-out" />
+          <div className="absolute inset-0 bg-gradient-to-t from-yellow-900/80 to-transparent group-hover:from-yellow-700/60 transition-colors duration-300 ease-in-out" />
           <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
             <h3 className="text-lg font-semibold mb-1">{project.title}</h3>
             <p className="text-sm">{project.description}</p>
