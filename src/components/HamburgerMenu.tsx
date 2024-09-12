@@ -65,6 +65,9 @@ const HamburgerMenu: React.FC = () => {
             <li>
               <Link href="/WhyUs">Why Us</Link>
             </li>
+            <li>
+              <Link href="/OurWork">Our Work</Link>
+            </li>
           </ul>
         </div>
       )}

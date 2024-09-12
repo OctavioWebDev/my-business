@@ -20,7 +20,7 @@ const projectsData = [
   },
   {
     id: 3,
-    href: "#",
+    href: "https://ligt-my-logo.vercel.app/",
     imageSrc: "/assets/portfolioimages/Screen Shot 2024-05-18 at 5.54.57 PM.png",
     imageAlt: "Scotty B's LEDs Project Image",
     title: "Scotty B's LEDs Project",
