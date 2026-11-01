@@ -58,3 +58,19 @@ body {
 
 
 
+/* Hero tiles (components/ui/background-boxes.tsx): light up instantly, fade out slowly */
+.boxes-tile {
+  transition: background-color 2s ease-out;
+}
+
+.boxes-tile:hover,
+.boxes-tile.is-lit {
+  background-color: var(--tile-color);
+  transition-duration: 0s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .boxes-tile {
+    transition: none;
+  }
+}
