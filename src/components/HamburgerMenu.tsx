@@ -3,6 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
+import { navLinks } from '@/data/navigation';
 
 const HamburgerMenu: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -44,30 +45,11 @@ const HamburgerMenu: React.FC = () => {
           className="absolute top-12 right-0 bg-gradient-to-b from-black to-emerald-950 text-white p-4 shadow-lg z-10"
         >
           <ul className="flex flex-col space-y-2">
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/Contact">Contact</Link>
-            </li>
-            <li>
-              <Link href="/Blog">Blog</Link>
-            </li>
-            <li>
-              <Link href="/Design">Design</Link>
-            </li>
-            <li>
-              <Link href="/Maintenance">Maintenance</Link>
-            </li>
-            <li>
-              <Link href="/Marketing">Marketing</Link>
-            </li>
-            <li>
-              <Link href="/WhyUs">Why Us</Link>
-            </li>
-            <li>
-              <Link href="/OurWork">Our Work</Link>
-            </li>
+            {navLinks.map((link) => (
+              <li key={link.href}>
+                <Link href={link.href} onClick={closeMenu}>{link.label}</Link>
+              </li>
+            ))}
           </ul>
         </div>
       )}

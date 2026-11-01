@@ -3,14 +3,14 @@ import RecentAdditions from "./components/RecentAdditions"
 export default function OurWork() {
   return (
     <div className="flex flex-col bg-gradient-to-b from-transparent to-emerald-950 min-h-screen">
-      <main className="flex-1 container px-4 md:px-6 py-12 grid md:grid-cols-[2fr_1fr] gap-12">
-        <div className="grid grid-cols-2 gap-4">
+      <main className="flex-1 container mx-auto px-4 md:px-6 py-12 grid md:grid-cols-[2fr_1fr] gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 content-start">
           <PortfolioTile />
         </div>
         <div className="space-y-8">
           <div>
             <h2 className="text-2xl font-bold mb-4 text-yellow-700">Quest Web Tech</h2>
-            <p className="text-gray-300 leading-relaxed">
+            <div className="text-gray-300 leading-relaxed">
               Quest Web Development Technologies is a cutting-edge web development company specializing in creating bespoke digital solutions for businesses of all sizes. Our expertise spans web design and development, API creation, database management, and ongoing maintenance services.
               <br /><br />
               We pride ourselves on delivering responsive, user-friendly, and visually appealing websites tailored to each client's unique needs. Our team of skilled professionals leverages the latest technologies and best practices to build high-performance, scalable, and secure web applications.
@@ -26,7 +26,7 @@ export default function OurWork() {
               At Quest Web Development Technologies, we're not just building websites; we're creating digital experiences that drive business growth and user engagement. Our portfolio showcases a range of successful projects across various industries, demonstrating our versatility and technical prowess.
               <br /><br />
               <strong className="text-yellow-700">Choose Quest Web Development Technologies for your next digital project and experience the perfect blend of creativity, functionality, and cutting-edge technology.</strong>
-            </p>
+            </div>
           </div>
           <div>
             <div className="grid gap-4">
