@@ -5,25 +5,21 @@ import Footer from "@/components/Footer";
 import { Chivo } from 'next/font/google'
 import './styles.css'
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SITE_URL } from "@/data/seo";
 
 export const metadata: Metadata = {
-  title: "Quest Web Development Technologies",
-  description: "Navigating Your Digital Success",
-  openGraph: {
-    title: "Quest Web Development Technologies",
-    description: "Quest Web Development Technologies Is Here To Help With Navigating Your Digital Success",
-    type: "website",
-    url: "https://questwebtech.com",
-    images: [
-      {
-        url: "https://questwebtech.com/opengraph-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Quest Web Development Technologies",
-      },
-    ],
-    siteName: "Quest Web Development Technologies", 
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Quest Web Tech | Web Design and Development in Toledo, Ohio",
+    template: "%s | Quest Web Tech",
   },
+  description:
+    "Custom websites, web apps, APIs and databases for businesses in Toledo, Ohio, plus maintenance and marketing to keep them working.",
+  openGraph: {
+    type: "website",
+    siteName: "Quest Web Development Technologies",
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 const chivo = Chivo({

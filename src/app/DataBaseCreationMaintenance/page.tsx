@@ -1,5 +1,8 @@
 import ArticleLayout from "@/components/blog/ArticleLayout";
 import { getPost } from "@/data/posts";
+import { postMetadata } from "@/data/seo";
+
+export const metadata = postMetadata("/DataBaseCreationMaintenance");
 
 const meta = getPost("/DataBaseCreationMaintenance");
 

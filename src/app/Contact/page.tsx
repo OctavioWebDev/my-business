@@ -1,5 +1,12 @@
 import ArticleLayout, { type ArticleMeta } from "@/components/blog/ArticleLayout";
 import ContactForm from "@/components/ContactForm";
+import { pageMetadata } from "@/data/seo";
+
+export const metadata = pageMetadata({
+  title: "Contact Us",
+  description: "Get a quote for a new website, web app or API. Call (419) 343-9894, email contact@questwebtech.com or send the form.",
+  path: "/Contact",
+});
 
 const meta: ArticleMeta = {
   title: "Contact Us",

@@ -1,9 +1,17 @@
 import PortfolioTile from "./components/PortfolioTile"
 import RecentAdditions from "./components/RecentAdditions"
+import { pageMetadata } from "@/data/seo";
+
+export const metadata = pageMetadata({
+  title: "Our Work",
+  description: "Websites and apps built by Quest Web Tech, including Chi-Rho Lifts, Chi-Rho Power and Strength and local construction companies.",
+  path: "/OurWork",
+});
 export default function OurWork() {
   return (
     <div className="flex flex-col bg-gradient-to-b from-transparent to-emerald-950 min-h-screen">
       <main className="flex-1 container mx-auto px-4 md:px-6 py-12 grid md:grid-cols-[2fr_1fr] gap-12">
+        <h1 className="sr-only">Our Work</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 content-start">
           <PortfolioTile />
         </div>
