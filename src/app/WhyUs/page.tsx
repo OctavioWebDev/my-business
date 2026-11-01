@@ -1,4 +1,11 @@
 import ArticleLayout, { type ArticleMeta } from "@/components/blog/ArticleLayout";
+import { pageMetadata } from "@/data/seo";
+
+export const metadata = pageMetadata({
+  title: "Why Choose Us",
+  description: "How custom-built sites compare with WordPress and Shopify, and how Quest Web Tech can build on either.",
+  path: "/WhyUs",
+});
 
 const meta: ArticleMeta = {
   title: "Why Choose Us?",

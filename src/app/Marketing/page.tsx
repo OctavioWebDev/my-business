@@ -1,5 +1,8 @@
 import ArticleLayout from "@/components/blog/ArticleLayout";
 import { getPost } from "@/data/posts";
+import { postMetadata } from "@/data/seo";
+
+export const metadata = postMetadata("/Marketing", "Marketing best practices for small businesses: keeping it simple, following trends, proven methods and finding the right balance.");
 
 const meta = getPost("/Marketing");
 
