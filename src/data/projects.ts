@@ -30,14 +30,14 @@ export const projects: Project[] = [
     description: 'A website for a local gym and personal training company',
   },
   {
-    href: 'https://dominguezprop.vercel.app/',
+    href: 'https://www.dptoledo.com/',
     image: '/assets/portfolioimages/Screen Shot 2024-09-03 at 10.47.31 AM.png',
     imageAlt: 'Dominguez Properties Project Image',
     title: 'Dominguez Properties Project',
     description: 'A website for a local comercial and residential management company',
   },
   {
-    href: 'https://nextgenprop.vercel.app/',
+    href: 'https://www.ngptoledo.com/',
     image: '/assets/portfolioimages/Screen Shot 2024-09-02 at 8.14.44 AM.png',
     imageAlt: 'Next Generation Properties Project Image',
     title: 'Next Generation Properties Project',
